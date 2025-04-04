@@ -4,18 +4,24 @@
 
 # Parallel GPU Pixel Sorting
 
-A simple compute shader for sorting pixels of an image using the Metal Shader Langauge.
-<sup>(Mainly used for studying purposes)</sup>
+A simple compute shader for sorting pixels of an image using the Metal Shader Language.
 
 ## Example
+
 <div align="center">
-  <div style="display: inline-block; text-align: center; margin: 0 10px; vertical-align: middle;">
-    <p><strong>Original Image</strong></p>
-    <img src="assets/test1.png">
-  </div>
-  <span style="display: inline-block; margin: 0 20px; vertical-align: middle; font-size: 24px; position: relative; top: 40px;">→</span>
-  <div style="display: inline-block; text-align: center; margin: 0 10px; vertical-align: middle;">
-    <p><strong>Sorted Result</strong></p>
-    <img src="assets/result1.png">
-  </div>
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Original Image</strong><br>
+        <img src="assets/test1.png">
+      </td>
+      <td align="center" width="80">
+        →
+      </td>
+      <td align="center">
+        <strong>Sorted Result</strong><br>
+        <img src="assets/result1.png">
+      </td>
+    </tr>
+  </table>
 </div>
